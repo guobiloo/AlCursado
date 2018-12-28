@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.android.alcursado.MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+    <!-- libreria que implementa la navegacion por pestañas con un estilo personalizado -->
+    <com.github.florent37.bubbletab.BubbleTab
+        android:id="@+id/bubbleTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gris_muy_claro3"
+        android:clipToPadding="false"
+
+        app:bubbleTab_circleRatio="1.25"
+
+        app:bubbleTab_image0="@mipmap/user_marker"
+        app:bubbleTab_image1="@mipmap/bell_marker"
+        app:bubbleTab_image2="@mipmap/calendar2_marker"
+        app:bubbleTab_image4="@mipmap/lupa_32px"
+
+        app:bubbleTab_circleColor="@color/naranja"
+        app:bubbleTab_selectedColor="@color/negro"
+        app:bubbleTab_unselectedColor="@color/negro"
+        />
+
+
+    <!--el ViewPager permite la transicion entre fragments y trabaja en conjunto
+    con PageAdapter para alzar una vista sobre pantalla para una determinada
+    pestaña -->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blanco"
+    />
+
+
+</LinearLayout>

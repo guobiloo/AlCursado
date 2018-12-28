@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blanco"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:background="#55000000">
+
+            <ImageView
+                android:id="@+id/baner_fich"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/fichunl" />
+
+        </FrameLayout>
+
+
+        <com.diegodobelo.expandingview.ExpandingList
+            android:id="@+id/expanding_list_fich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"/>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:background="#55000000">
+
+            <ImageView
+                android:id="@+id/baner_fadu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@mipmap/faduunl" />
+
+        </FrameLayout>
+
+
+        <com.diegodobelo.expandingview.ExpandingList
+            android:id="@+id/expanding_list_fadu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="14dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="idiomas">Langage</string>
+    <string name="es">Español</string>
+    <string name="en">English</string>
+    <string name="dt">Deutsch</string>
+    <string name="fr">Français</string>
+
+
+    <!--PESTAÑA LUGARES-->
+
+
+    <string name="oficinas">Bureaux</string>
+    <string name="bedelia">Bedelía</string>
+    <string name="alumnado">Burear de attention à l\'étudiant</string>
+    <string name="educacion_distancia">Bureau de l\'éducation à distance</string>
+    <string name="secretaria_decanato">Bureau de direction</string>
+    <string name="CEICH_MesaEntradas">centre d\'étudiants / bureau de réception des lettres</string>
+
+    <string name="banios">Toilettes</string>
+    <string name="banio">Toilette</string>
+
+    <string name="favoritos">Favoris</string>
+    <string name="cantina">Cantine</string>
+    <string name="fotocopiadora">photocopieur</string>
+
+    <!--EVENTOS_UNL-->
+    <string name="fecha">Date</string>
+    <string name="agregar_calendario">ajouter un rappel --></string>
+    <string name="eventos">Calendrier UNL</string>
+
+
+    <!--PESTAÑA INFORMACION Y CLIMA-->
+    <string name="notificaciones">Notifications</string>
+    <string name="clima">climat</string>
+
+    <!--PESTAÑA PERFIL-->
+    <string name="materias">sujets scolaires</string>
+    <string name="agregar_materia">ajouter une classe--></string>
+
+    <!--ACTIVITY MAPA-->
+    <string name="nombre_nuevo_marcador">Nom…</string>
+    <string name="lugar_nuevo_marcador">Place:</string>
+    <string name="piso_nuevo_marcador">étage:</string>
+
+    <string name="planta_baja">rez-de-chaussée</string>
+    <string name="primer_piso">premier étage</string>
+    <string name="segundo_piso">deuxième étage</string>
+    <string name="tercer_piso">troisième étage</string>
+    <string name="cuarto_piso">quatrième étage</string>
+
+    <!--Category-->
+    <string-array tools:ignore="InconsistentArrays" name="spinner_pisos_array">
+        <item >rez-de-chaussée</item>
+        <item >premier étage</item>
+        <item >deuxième étage</item>
+        <item >troisième étage</item>
+        <item >quatrième étage</item>
+    </string-array>
+</resources>

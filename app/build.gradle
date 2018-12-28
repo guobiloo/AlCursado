@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.example.android.alcursado"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.google.android.gms:play-services-maps:12.0.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:design:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:support-v13:26.1.0'
+    implementation 'com.google.firebase:firebase-auth:12.0.1'
+    implementation 'com.google.firebase:firebase-messaging:12.0.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.google.android.gms:play-services-location:12.0.1'
+    //libreria para optimizar la carga de imagenes
+    compile 'com.github.bumptech.glide:glide:3.8.0'
+    //librerias para las pestañas personalizadas y el ListView qe se expande
+    compile 'com.diegodobelo.expandingview:expanding-view:0.9.4'
+    compile 'com.github.florent37:bubbletab:1.0.0'
+    //con esto se solicita la descarga de imagenes a un webservice y se almacena
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    //para el boton flotante
+    compile 'com.github.clans:fab:1.6.4'
+    //    utilizar funciones avanzadas de los mapas
+    compile 'com.google.maps.android:android-maps-utils:0.4.4'
+    // obtener instrucciones de como llegar a un lugar al web service de google maps
+    compile 'com.google.android.gms:play-services-location:12.0.1'
+    //esta es la libreria para hacer peticiones a web services
+    compile 'com.squareup.okhttp:okhttp:2.5.0'
+    //libreria para lecturas codigos QR
+    compile 'me.dm7.barcodescanner:zbar:1.9.8'
+}
+
+
+
+apply plugin: 'com.google.gms.google-services'

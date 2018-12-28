@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="idiomas">Idiomas</string>
+    <string name="es">Español</string>
+    <string name="en">English</string>
+    <string name="dt">Deutsch</string>
+    <string name="fr">Français</string>
+
+
+    <!--PESTAÑA LUGARES-->
+
+
+    <string name="oficinas">Offices</string>
+    <string name="bedelia">Bedelía</string>
+    <string name="alumnado">Student attention Office</string>
+    <string name="educacion_distancia">Distance Education Office</string>
+    <string name="secretaria_decanato">Management</string>
+    <string name="CEICH_MesaEntradas">Students\' center / Letter reception Office</string>
+
+    <string name="banios">Toilets</string>
+    <string name="banio">WC</string>
+
+    <string name="favoritos">Favorites</string>
+    <string name="cantina">Bar</string>
+    <string name="fotocopiadora">Photocopier</string>
+
+    <!--EVENTOS_UNL-->
+    <string name="fecha">Date</string>
+    <string name="agregar_calendario">Add reminder --></string>
+    <string name="eventos">Diary UNL</string>
+
+
+    <!--PESTAÑA INFORMACION Y CLIMA-->
+    <string name="notificaciones">Notifications</string>
+    <string name="clima">Forecast</string>
+
+    <!--PESTAÑA PERFIL-->
+    <string name="materias">Subjects</string>
+    <string name="agregar_materia">Add subject--></string>
+
+    <!--ACTIVITY MAPA-->
+    <string name="nombre_nuevo_marcador">Name…</string>
+    <string name="lugar_nuevo_marcador">Place:</string>
+    <string name="piso_nuevo_marcador">Level:</string>
+
+    <string name="planta_baja">main plant</string>
+    <string name="primer_piso">1st floor</string>
+    <string name="segundo_piso">2nd floor</string>
+    <string name="tercer_piso">3rd floor</string>
+    <string name="cuarto_piso">4th floor</string>
+
+    <!--Category-->
+    <string-array tools:ignore="InconsistentArrays" name="spinner_pisos_array">
+        <item >main plant</item>
+        <item >1st floor</item>
+        <item >2nd floor</item>
+        <item >3rd floor</item>
+        <item >4th floor</item>
+    </string-array>
+</resources>

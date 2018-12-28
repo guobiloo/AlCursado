@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    >
+
+
+    <!-- el subitem. Cuando se clickea sobre el HEADER, se expanden mas opciones. Una
+     de esas opciones con su contenido se representa aqui-->
+    <TextView
+        android:id="@+id/txt_sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="4dp"
+        android:textSize="16sp"
+        android:gravity="center_vertical|start"
+        android:textColor="@color/negro"
+        android:fontFamily="sans-serif"
+        />
+
+
+</RelativeLayout>

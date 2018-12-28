@@ -1,0 +1,19 @@
+part of this proyect has been made using extra downloaded libraries. I want to show my gratitude and thanks by naming each library's Author
+
+
+BubbleTab
+Put some bubble in your tabs and give your apps a supa fresh style!
+Author: Florent Champigny
+webpage: http://www.florentchampigny.com/
+
+
+Floating buttons
+Android Floating Action Button based on Material Design specification
+Author: Dmytro Tarianyk usign Jerzy Chalupski's library as a base for development.
+link: https://github.com/Clans/FloatingActionButton
+
+
+ExpandingViewLibrary
+This is a library to help creating expanding views with animation in Android.
+Author: Diego Bezerra
+link: https://github.com/diegodobelo/AndroidExpandingViewLibrary

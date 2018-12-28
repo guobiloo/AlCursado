@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="idiomas">Spache</string>
+    <string name="es">Español</string>
+    <string name="en">English</string>
+    <string name="dt">Deutsch</string>
+    <string name="fr">Français</string>
+
+    <!--PESTAÑA LUGARES-->
+
+
+    <string name="oficinas">Schreibstube</string>
+    <string name="bedelia">Bedelía</string>
+    <string name="alumnado">Schulerbetregung amt</string>
+    <string name="educacion_distancia">Distanz Ausbildung Amt</string>
+    <string name="secretaria_decanato">Verwaltungsbüro</string>
+    <string name="CEICH_MesaEntradas">Studentemzentrum / Empfang von Briefen</string>
+
+    <string name="banios">Toiletten</string>
+    <string name="banio">Toilette</string>
+
+    <string name="favoritos">Favoriten</string>
+    <string name="cantina">Kantine</string>
+    <string name="fotocopiadora">Fotokopiergerat</string>
+
+    <!--EVENTOS_UNL-->
+    <string name="fecha">Tag</string>
+    <string name="agregar_calendario">fugt es wie eine Erinnerung an--></string>
+    <string name="eventos">Kalender UNL</string>
+
+
+    <!--PESTAÑA INFORMACION Y CLIMA-->
+    <string name="notificaciones">Meldungen</string>
+    <string name="clima">Das Wetter</string>
+
+    <!--PESTAÑA PERFIL-->
+    <string name="materias">die Kurse</string>
+    <string name="agregar_materia">fugt ein neu kurs an--></string>
+
+    <!--ACTIVITY MAPA-->
+    <string name="nombre_nuevo_marcador">Name…</string>
+    <string name="lugar_nuevo_marcador">Platz:</string>
+    <string name="piso_nuevo_marcador">Stock:</string>
+
+    <string name="planta_baja">Erdgeschoss</string>
+    <string name="primer_piso">1ste Stock</string>
+    <string name="segundo_piso">2te Stock</string>
+    <string name="tercer_piso">3er Stock</string>
+    <string name="cuarto_piso">4er Stock</string>
+
+    <!--Category-->
+    <string-array tools:ignore="InconsistentArrays" name="spinner_pisos_array">
+        <item >Erdgeschoss</item>
+        <item >1ste Stock</item>
+        <item >2te Stock</item>
+        <item >3er Stock</item>
+        <item >4er Stock</item>
+    </string-array>
+</resources>

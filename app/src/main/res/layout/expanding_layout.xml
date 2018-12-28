@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--este layout es el resultado de un elemento HEADER expandido con los subitems.-->
+<!--despues del espacio en blanco, hay dos lineas que dicen -->
+<!--app:item_layout="@layout/item_expanding_list"
+    app:sub_item_layout="@layout/subitem_expanding_list" -->
+<!--Estas son los 2 layouts creados que se haran uso aqui-->
+<com.diegodobelo.expandingview.ExpandingItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    app:item_layout="@layout/item_expanding_list"
+    app:sub_item_layout="@layout/subitem_expanding_list"
+    app:indicator_size="50dp"
+    app:indicator_margin_left="5dp"
+    app:indicator_margin_right="10dp"
+    app:show_indicator="true"
+    app:show_animation="true"
+    app:start_collapsed="true"
+    app:animation_duration="250"
+    />

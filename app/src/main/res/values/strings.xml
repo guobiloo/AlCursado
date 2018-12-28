@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">AlCursado</string>
+    <string name="title_activity_main" translatable="false">MainActivity</string>
+    <string name="action_settings" translatable="false">Config</string>
+
+    <string name="idiomas">Idiomas</string>
+    <string name="es">Español</string>
+    <string name="en">English</string>
+    <string name="dt">Deutsch</string>
+    <string name="fr">Français</string>
+
+
+    <!--PESTAÑA LUGARES-->
+    <string name="fich" translatable="false">FICH</string>
+    <string name="fadu" translatable="false">FADU</string>
+
+    <string name="oficinas">Oficinas</string>
+    <string name="bedelia">Bedelía</string>
+    <string name="alumnado">Alumnado</string>
+    <string name="secretaria_decanato">Secretaria Academica / Decanato</string>
+    <string name="educacion_distancia">Educacion a distancia</string>
+    <string name="CEICH_MesaEntradas">Centro de estudiantes / Mesa de entradas</string>
+
+    <string name="banios">Baños</string>
+    <string name="banio">baño</string>
+
+    <string name="favoritos">Favoritos</string>
+    <string name="cantina">Cantina</string>
+    <string name="fotocopiadora">Fotocopiadora</string>
+
+    <!--EVENTOS_UNL-->
+    <string name="fecha">fecha</string>
+    <string name="agregar_calendario">Agregar como recordatorio --></string>
+    <string name="eventos">Agenda UNL</string>
+
+
+    <!--PESTAÑA INFORMACION Y CLIMA-->
+    <string name="notificaciones">Notificaciones</string>
+    <string name="clima">El clima</string>
+
+    <!--PESTAÑA PERFIL-->
+    <string name="materias">Materias</string>
+    <string name="agregar_materia">Añadir materia --></string>
+
+<!--ACTIVITY MAPA-->
+    <string name="nombre_nuevo_marcador">Nombre…</string>
+    <string name="lugar_nuevo_marcador">Lugar:</string>
+    <string name="piso_nuevo_marcador">Piso:</string>
+
+    <string name="planta_baja">Planta baja</string>
+    <string name="primer_piso">1er piso</string>
+    <string name="segundo_piso">2do piso</string>
+    <string name="tercer_piso">3er piso</string>
+    <string name="cuarto_piso">4to piso</string>
+
+    <!--Category-->
+    <string-array tools:ignore="InconsistentArrays" name="spinner_pisos_array">
+        <item >Planta baja</item>
+        <item >1er piso</item>
+        <item >2do piso</item>
+        <item >3er piso</item>
+        <item >4to piso</item>
+    </string-array>
+
+
+</resources>

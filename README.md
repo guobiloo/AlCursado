@@ -6,13 +6,11 @@
 Haga click en la imagen para observar la vista y las funciones detalladas de la aplicación
 [![Alt text for your video](https://img.youtube.com/vi/TPhbchqwP84/0.jpg)](https://www.youtube.com/watch?v=TPhbchqwP84)
 
-https://www.youtube.com/embed/TPhbchqwP84
-
-## info del codigo
-Se debera insertar las keys de Google para utilizar su API de direcciones y google Maps
+https://www.youtube.com/watch?v=JCkww69nbj4
 
 ## contacto
-Ante cualquier duda, consulte por mail: joa_gzb@hotmail.com
+mail: joa_gzb@hotmail.com / joa.gzb@gmail.com
+linkedin: https://www.linkedin.com/in/joaquin-gonzalez-budino/
 
 ## licencia
 Copyright (C) 2018 Gonzalez budinho Joaquin
